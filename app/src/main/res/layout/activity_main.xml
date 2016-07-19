@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android.ormlitedemo.MainActivity">
+
+    <Button
+        android:id="@+id/inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="inset"/>
+    <Button
+        android:id="@+id/querytrem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="querytrem"/>
+    <Button
+        android:id="@+id/deletebatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="deletebatch"/>
+    <Button
+        android:id="@+id/updatebatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="updatebatch"/>
+    <Button
+        android:id="@+id/insetbatch"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="insetbatch"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv"/>
+</LinearLayout>
